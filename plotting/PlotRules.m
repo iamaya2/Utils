@@ -36,7 +36,7 @@ end
 %         toGrayscale = varargin{2};        
 % end
 
-allColors = [0 0 0; 0.85 0 0; 0 0 0.85; 0.85 0 0.85; 0.75 * ones(1,3);  0.5 * ones(1,3);];
+allColors = [0 0 0; 1 1 0; 0 1 0; 1 0 0; 0 0 1; 1 0 1;];
 
 
 RuleX = Rules(:,rX);

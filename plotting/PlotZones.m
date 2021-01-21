@@ -73,7 +73,7 @@ ActionSize = 12;
 vX = X(:);
 vY = Y(:);
 allActionIDs = nan(size(vX));
-allColors = [0 0 0; 0.85 0 0; 0 0 0.85; 0.85 0 0.85; 0.75 * ones(1,3);  0.5 * ones(1,3);];
+allColors = [0 0 0; 1 1 0; 0 1 0; 1 0 0; 0 0 1; 1 0 1;];
 
 % Evaluate all points
 for idx = 1 : length(vX)
